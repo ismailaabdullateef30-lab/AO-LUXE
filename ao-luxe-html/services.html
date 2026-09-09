@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services | AO Luxe Events</title>
+<meta name="description" content="Full event planning, partial planning, day-of coordination, and venue and vendor sourcing from AO Luxe Events.">
+<link rel="icon" href="assets/images/logo.jpg">
+
+<meta property="og:title" content="Services | AO Luxe Events">
+<meta property="og:description" content="Full event planning, partial planning, day-of coordination, and venue and vendor sourcing from AO Luxe Events.">
+<meta property="og:image" content="assets/images/logo.jpg">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="flex min-h-screen flex-col bg-ink font-body text-cream antialiased">
+
+<header id="site-header" class="sticky top-0 z-50 border-b border-transparent bg-ink transition-colors duration-300">
+  <nav class="mx-auto flex max-w-content items-center justify-between px-6 py-4 lg:px-10">
+
+    <!--
+      The logo file has a solid #0C0C0C background, a shade darker than
+      the page. mix-blend-lighten drops that black so the gold sits
+      directly on the page. The artwork itself is never altered.
+    -->
+    <a href="index.html" aria-label="AO Luxe Events home" class="block w-[86px] sm:w-[104px]">
+      <img src="assets/images/logo.jpg" alt="AO Luxe Events, ...Class, Value &amp; Elegance"
+           width="1190" height="935" class="h-auto w-full mix-blend-lighten">
+    </a>
+
+    <ul class="hidden items-center gap-9 md:flex">
+              <li>
+          <a href="index.html"
+             class="font-body text-[13px] uppercase tracking-[0.16em] transition-colors duration-200 text-cream hover:text-gold-light">
+            Home          </a>
+        </li>
+              <li>
+          <a href="about.html"
+             class="font-body text-[13px] uppercase tracking-[0.16em] transition-colors duration-200 text-cream hover:text-gold-light">
+            About          </a>
+        </li>
+              <li>
+          <a href="services.html"
+             class="font-body text-[13px] uppercase tracking-[0.16em] transition-colors duration-200 text-cream hover:text-gold-light">
+            Services          </a>
+        </li>
+              <li>
+          <a href="book.html"
+             class="font-body text-[13px] uppercase tracking-[0.16em] transition-colors duration-200 text-cream hover:text-gold-light">
+            Book          </a>
+        </li>
+              <li>
+          <a href="contact.html"
+             class="font-body text-[13px] uppercase tracking-[0.16em] transition-colors duration-200 text-cream hover:text-gold-light">
+            Contact          </a>
+        </li>
+            <li>
+        <a href="book.html" class="border border-gold bg-gold px-5 py-2.5 font-body text-[12px] uppercase tracking-[0.16em] text-ink transition-all duration-200 hover:bg-gold-light">
+          Book Your Event
+        </a>
+      </li>
+    </ul>
+
+    <button type="button" id="menu-toggle" aria-expanded="false" aria-label="Open menu"
+            class="flex h-10 w-10 flex-col items-center justify-center gap-[5px] md:hidden">
+      <span class="block h-px w-6 bg-gold transition-transform duration-300"></span>
+      <span class="block h-px w-6 bg-gold transition-opacity duration-200"></span>
+      <span class="block h-px w-6 bg-gold transition-transform duration-300"></span>
+    </button>
+  </nav>
+
+  <div id="mobile-menu" class="hidden border-t border-ink-line bg-ink md:hidden">
+    <ul class="flex flex-col px-6 py-2">
+              <li class="border-b border-ink-line last:border-0">
+          <a href="index.html" class="block py-4 font-body text-sm uppercase tracking-[0.16em] text-cream">
+            Home          </a>
+        </li>
+              <li class="border-b border-ink-line last:border-0">
+          <a href="about.html" class="block py-4 font-body text-sm uppercase tracking-[0.16em] text-cream">
+            About          </a>
+        </li>
+              <li class="border-b border-ink-line last:border-0">
+          <a href="services.html" class="block py-4 font-body text-sm uppercase tracking-[0.16em] text-cream">
+            Services          </a>
+        </li>
+              <li class="border-b border-ink-line last:border-0">
+          <a href="book.html" class="block py-4 font-body text-sm uppercase tracking-[0.16em] text-cream">
+            Book          </a>
+        </li>
+              <li class="border-b border-ink-line last:border-0">
+          <a href="contact.html" class="block py-4 font-body text-sm uppercase tracking-[0.16em] text-cream">
+            Contact          </a>
+        </li>
+          </ul>
+    <div class="px-6 pb-6">
+      <a href="book.html" class="block bg-gold px-5 py-3 text-center font-body text-[12px] uppercase tracking-[0.16em] text-ink">Book Your Event</a>
+    </div>
+  </div>
+</header>
+
+<main class="flex-1">
+
+<section class="border-b border-ink-line">
+  <div class="section text-center">
+    <p class="eyebrow">Our Services</p>
+    <h1 class="mx-auto mt-6 max-w-3xl font-display text-5xl leading-[1.1] text-cream sm:text-6xl">Planning, at the level you need it</h1>
+    <p class="mx-auto mt-7 max-w-2xl font-body text-base leading-relaxed text-cream-muted">
+      Four ways in, depending on how much of the work you want to carry yourself.
+      We are a planning house. We do not decorate or cater; we source the
+      specialists who do and hold them to their word, which keeps our advice on
+      your side rather than our own price list.
+    </p>
+    <p class="mx-auto mt-5 max-w-2xl font-body text-sm leading-relaxed text-cream-muted/70">
+      Prices below are starting points. Every quote is built around your guest
+      count, venue and date, and we put it in writing before anything is committed.
+    </p>
+  </div>
+</section>
+
+  <section id="full-planning" class="border-b border-ink-line bg-ink">
+    <div class="section grid gap-12 lg:grid-cols-12 lg:gap-16">
+
+      <div class="lg:col-span-5 ">
+        <div class="h-10 w-10 text-gold">  <svg viewBox="0 0 24 24" stroke-width="1.1" class="h-full w-full fill-none stroke-current">
+    <path d="M12 2.5 14 8l5.5 2-5.5 2-2 5.5-2-5.5L4.5 10 10 8z" stroke-linejoin="round"/>
+    <path d="M18.5 15.5 19.4 18l2.5.9-2.5.9-.9 2.5-.9-2.5L15 18l2.6-.9z" stroke-linejoin="round"/>
+  </svg>
+</div>
+        <span class="mt-6 block font-body text-[11px] tracking-[0.2em] text-gold/60">01</span>
+        <h2 class="mt-2 font-display text-4xl leading-tight text-cream sm:text-5xl">Full Event Planning</h2>
+        <p class="mt-6 font-body text-base leading-relaxed text-cream-muted">Our complete service, and the way most clients work with us. We start with the occasion behind the occasion, build the concept and the budget around it, then find and manage every supplier the day needs. You approve the decisions; we carry the work, the chasing and the timelines, including the parts that only surface on the day itself.</p>
+        <p class="mt-8 border-l-2 border-gold pl-4 font-display text-2xl text-gold">Starting from NGN XXX,XXX</p>
+        <a href="book.html?service=full-planning" class="btn-gold mt-8">Book This Service</a>
+      </div>
+
+      <div class="lg:col-span-6 lg:col-start-7">
+        <div class="border border-ink-line bg-ink-soft p-8 lg:p-10">
+          <h3 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">What Is Included</h3>
+          <ul class="mt-7 space-y-4">
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Discovery session and full event brief</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Concept direction, theme and mood board</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Budget built with you, then tracked to the last naira</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Venue sourcing, inspections and negotiation</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Sourcing and managing every vendor: decorators, caterers, photography, entertainment</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Contract review and payment scheduling</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Full timeline and run-of-show</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Guest logistics, seating and hospitality planning</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">On-the-day coordination from setup to teardown</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Post-event vendor sign-off and reconciliation</span>
+              </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="partial-planning" class="border-b border-ink-line bg-ink-soft/40">
+    <div class="section grid gap-12 lg:grid-cols-12 lg:gap-16">
+
+      <div class="lg:col-span-5 lg:order-2 lg:col-start-8">
+        <div class="h-10 w-10 text-gold">  <svg viewBox="0 0 24 24" stroke-width="1.1" class="h-full w-full fill-none stroke-current">
+    <path d="M8 4.5H6.5A1.5 1.5 0 0 0 5 6v13a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19V6a1.5 1.5 0 0 0-1.5-1.5H16" stroke-linejoin="round"/>
+    <rect x="8" y="2.5" width="8" height="3.5" rx="1"/>
+    <path d="m8.5 12 1.6 1.6L13.5 10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8.5 17h7" stroke-linecap="round"/>
+  </svg>
+</div>
+        <span class="mt-6 block font-body text-[11px] tracking-[0.2em] text-gold/60">02</span>
+        <h2 class="mt-2 font-display text-4xl leading-tight text-cream sm:text-5xl">Partial Planning</h2>
+        <p class="mt-6 font-body text-base leading-relaxed text-cream-muted">For clients who have already booked a venue, or a vendor or two, and have realised how much is left. We review everything committed so far, tell you honestly where the gaps and the risks are, then take over the rest: the remaining suppliers, the budget, the timeline and the day itself.</p>
+        <p class="mt-8 border-l-2 border-gold pl-4 font-display text-2xl text-gold">Starting from NGN XXX,XXX</p>
+        <a href="book.html?service=partial-planning" class="btn-gold mt-8">Book This Service</a>
+      </div>
+
+      <div class="lg:col-span-6 lg:order-1 lg:col-start-1">
+        <div class="border border-ink-line bg-ink-soft p-8 lg:p-10">
+          <h3 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">What Is Included</h3>
+          <ul class="mt-7 space-y-4">
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Review of everything already booked and signed</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Honest gap and risk assessment, in writing</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Budget review against what is left to spend</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Sourcing and managing the remaining vendors</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Full timeline and run-of-show</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Management of the final month before the event</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Vendor confirmation and logistics in the closing week</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">On-the-day coordination from setup to teardown</span>
+              </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="day-of" class="border-b border-ink-line bg-ink">
+    <div class="section grid gap-12 lg:grid-cols-12 lg:gap-16">
+
+      <div class="lg:col-span-5 ">
+        <div class="h-10 w-10 text-gold">  <svg viewBox="0 0 24 24" stroke-width="1.1" class="h-full w-full fill-none stroke-current">
+    <circle cx="12" cy="12" r="8.5"/>
+    <path d="M12 7v5.2l3.4 2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</div>
+        <span class="mt-6 block font-body text-[11px] tracking-[0.2em] text-gold/60">03</span>
+        <h2 class="mt-2 font-display text-4xl leading-tight text-cream sm:text-5xl">Day-Of Coordination</h2>
+        <p class="mt-6 font-body text-base leading-relaxed text-cream-muted">For clients who have organised everything themselves and do not want to spend the day on their phone. We take the handover a few weeks out, learn your plan properly, confirm every vendor, and then run the day to your timeline, including the small emergencies you should never hear about.</p>
+        <p class="mt-8 border-l-2 border-gold pl-4 font-display text-2xl text-gold">Starting from NGN XXX,XXX</p>
+        <a href="book.html?service=day-of" class="btn-gold mt-8">Book This Service</a>
+      </div>
+
+      <div class="lg:col-span-6 lg:col-start-7">
+        <div class="border border-ink-line bg-ink-soft p-8 lg:p-10">
+          <h3 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">What Is Included</h3>
+          <ul class="mt-7 space-y-4">
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Handover sessions to learn your plan in full</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Confirmation calls with every booked vendor</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">A written run-of-show shared with all suppliers</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Setup supervision and vendor arrival management</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Timeline management across the whole day</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Guest, VIP and protocol handling</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Quiet troubleshooting as things come up</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Teardown oversight and vendor sign-off</span>
+              </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sourcing" class="border-b border-ink-line bg-ink-soft/40">
+    <div class="section grid gap-12 lg:grid-cols-12 lg:gap-16">
+
+      <div class="lg:col-span-5 lg:order-2 lg:col-start-8">
+        <div class="h-10 w-10 text-gold">  <svg viewBox="0 0 24 24" stroke-width="1.1" class="h-full w-full fill-none stroke-current">
+    <path d="M3 20h11" stroke-linecap="round"/>
+    <path d="M4.5 20V9.5L11 5l4 2.8" stroke-linejoin="round"/>
+    <path d="M7.5 20v-4.5h3V20" stroke-linejoin="round"/>
+    <circle cx="17" cy="12.5" r="4"/>
+    <path d="m20 15.6 2.2 2.2" stroke-linecap="round"/>
+  </svg>
+</div>
+        <span class="mt-6 block font-body text-[11px] tracking-[0.2em] text-gold/60">04</span>
+        <h2 class="mt-2 font-display text-4xl leading-tight text-cream sm:text-5xl">Venue &amp; Vendor Sourcing</h2>
+        <p class="mt-6 font-body text-base leading-relaxed text-cream-muted">Sourcing on its own, for clients who are happy to run their own event but want the searching, comparing and negotiating done properly. A venue sets the ceiling on everything else, and the right vendor at the right price is rarely the first quote you receive, so we do that part and hand you clean options with the numbers next to them.</p>
+        <p class="mt-8 border-l-2 border-gold pl-4 font-display text-2xl text-gold">Starting from NGN XXX,XXX</p>
+        <a href="book.html?service=sourcing" class="btn-gold mt-8">Book This Service</a>
+      </div>
+
+      <div class="lg:col-span-6 lg:order-1 lg:col-start-1">
+        <div class="border border-ink-line bg-ink-soft p-8 lg:p-10">
+          <h3 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">What Is Included</h3>
+          <ul class="mt-7 space-y-4">
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Brief and budget scoping session</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Shortlist of venues that genuinely fit your guest count and budget</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Venue inspections and availability checks</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Negotiation on rates, terms and inclusions</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Contract review before you sign anything</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Vetted vendor shortlists: decoration, catering, photography, entertainment</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Side-by-side quote comparison, with our honest recommendation</span>
+              </li>
+                          <li class="flex gap-4">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rotate-45 bg-gold"></span>
+                <span class="font-body text-sm leading-relaxed text-cream">Booking coordination and deposit scheduling</span>
+              </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="bg-gold-dark">
+  <div class="mx-auto flex max-w-content flex-col items-center gap-6 px-6 py-16 text-center lg:flex-row lg:justify-between lg:px-10 lg:text-left">
+    <div>
+      <h2 class="font-display text-3xl leading-tight text-ink sm:text-4xl">Not sure which service you need?</h2>
+      <p class="mt-2 font-body text-sm text-ink/75">Send us the details of your occasion and we will advise honestly, with no obligation.</p>
+    </div>
+    <div class="flex flex-col gap-3 sm:flex-row">
+      <a href="book.html" class="inline-flex items-center justify-center border border-ink bg-ink px-8 py-3.5 font-body text-[12px] uppercase tracking-[0.18em] text-gold transition-opacity duration-300 hover:opacity-85">Book Now</a>
+      <a href="https://wa.me/2347087054909?text=Hello%20AO%20Luxe%20Events%2C%20I%20would%20like%20to%20enquire%20about%20booking%20an%20event." target="_blank" rel="noopener" class="inline-flex items-center justify-center border border-ink px-8 py-3.5 font-body text-[12px] uppercase tracking-[0.18em] text-ink transition-colors duration-300 hover:bg-ink hover:text-gold">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="border-t border-ink-line bg-ink">
+  <div class="mx-auto max-w-content px-6 py-16 lg:px-10">
+    <div class="grid gap-12 md:grid-cols-3">
+
+      <div>
+        <a href="index.html" class="block w-[168px]">
+          <img src="assets/images/logo.jpg" alt="AO Luxe Events"
+               width="1190" height="935" class="h-auto w-full mix-blend-lighten">
+        </a>
+        <p class="mt-5 font-display text-lg italic text-gold">...Class, Value &amp; Elegance</p>
+        <p class="mt-4 max-w-xs font-body text-sm leading-relaxed text-cream-muted">Luxury event planning and coordination across Nigeria.</p>
+      </div>
+
+      <div>
+        <h4 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">Quick Links</h4>
+        <ul class="mt-5 space-y-3">
+                      <li><a href="index.html" class="font-body text-sm text-cream transition-colors duration-200 hover:text-gold">Home</a></li>
+                      <li><a href="about.html" class="font-body text-sm text-cream transition-colors duration-200 hover:text-gold">About</a></li>
+                      <li><a href="services.html" class="font-body text-sm text-cream transition-colors duration-200 hover:text-gold">Services</a></li>
+                      <li><a href="book.html" class="font-body text-sm text-cream transition-colors duration-200 hover:text-gold">Book</a></li>
+                      <li><a href="contact.html" class="font-body text-sm text-cream transition-colors duration-200 hover:text-gold">Contact</a></li>
+                  </ul>
+      </div>
+
+      <div>
+        <h4 class="font-body text-[11px] uppercase tracking-[0.2em] text-gold">Get In Touch</h4>
+        <ul class="mt-5 space-y-3 font-body text-sm text-cream">
+          <li><a href="https://wa.me/2347087054909?text=Hello%20AO%20Luxe%20Events%2C%20I%20would%20like%20to%20enquire%20about%20booking%20an%20event." target="_blank" rel="noopener" class="transition-colors duration-200 hover:text-gold">WhatsApp &middot; 07087054909</a></li>
+          <li><a href="tel:+2347035543697" class="transition-colors duration-200 hover:text-gold">Call &middot; 07035543697</a></li>
+          <li><a href="mailto:aoluxeevents@gmail.com" class="break-all transition-colors duration-200 hover:text-gold">aoluxeevents@gmail.com</a></li>
+          <li><a href="https://instagram.com/aoluxe_events" target="_blank" rel="noopener" class="transition-colors duration-200 hover:text-gold">@aoluxe_events</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 border-t border-ink-line pt-6">
+      <p class="font-body text-xs tracking-wide text-cream-muted">
+        &copy; 2026 AO Luxe Events. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
