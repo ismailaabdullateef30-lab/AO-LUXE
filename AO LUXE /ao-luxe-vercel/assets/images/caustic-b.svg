@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <!--
+    CAUSTIC LIGHT, layer B.
+
+    How it works, in order:
+      1. feTurbulence makes fractal noise: a smooth cloudy field.
+      2. luminanceToAlpha turns brightness into opacity, so the cloud
+         becomes a continuous gradient.
+      3. feFuncA keeps only a NARROW band of that gradient. This is the
+         whole trick. Slicing one contour line out of a smooth cloud
+         leaves thin connected filaments, which is what light refracted
+         through moving water actually looks like. A wide band gives
+         marbling instead, and a high frequency gives film grain.
+      4. feFlood tints the surviving filaments AO Luxe gold.
+
+    The x and y frequencies differ so the web is stretched horizontally,
+    the way a water surface reads when lit from above.
+  -->
+  <filter id="causticB" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.013 0.025"
+                  numOctaves="2" seed="29" result="noise"/>
+    <feColorMatrix in="noise" type="luminanceToAlpha" result="field"/>
+    <feComponentTransfer in="field" result="veins">
+      <feFuncA type="table" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    </feComponentTransfer>
+    <feFlood flood-color="#E8CB7E" flood-opacity="1" result="gold"/>
+    <feComposite in="gold" in2="veins" operator="in"/>
+  </filter>
+  <rect width="1000" height="1000" filter="url(#causticB)"/>
+</svg>
